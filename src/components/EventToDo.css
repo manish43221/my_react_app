@@ -1,0 +1,49 @@
+body{
+    background-color:coral;
+    background: linear-gradient(blueviolet);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0cqh;
+    margin: 0cqi;
+}
+.todo-container{
+    background-color:brown;
+    padding: 0cqb;
+    width: 400px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 23cqh;
+}
+.todo-container1{
+    background-color:black;
+    padding: 0cqb;
+    width: 200px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 12cqh;
+}
+
+.container{
+    background: white;
+    font-size: xx-small;
+  width: 400px;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+.deletebtn{
+    background-color: red;
+    width:2cm;
+    border-radius: 10cqb;
+    padding-right:2cm;
+}
+
+.todo-container2{
+    background-color:beige;
+    padding: 0cqb;
+    width: 200px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 12cqh;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
