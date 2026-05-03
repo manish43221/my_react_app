@@ -32,6 +32,10 @@ export function EventToDo(){
     // )
     const [task,setTask]=useState("");
     const[tasks,setTasks]=useState([]);
+    const [names] = useState(["ram", "shyam", "hari", "sita"]);
+    const [search, setSearch] = useState("");
+
+    const filteredNames = names.filter(name => name.toLowerCase().includes(search.toLowerCase()));
     function handleSubmit(e){
         e.preventDefault();
         const taskvalue=task.trim();
@@ -66,6 +70,14 @@ export function EventToDo(){
                     </li>
                 ))
             }
+         </ul>
+
+         <h2>Names List</h2>
+         <input type="text" placeholder="Search names" value={search} onChange={(e)=>setSearch(e.target.value)} />
+         <ul>
+            {filteredNames.map((name, index) => (
+                <li key={index}>{name}</li>
+            ))}
          </ul>
 
          </div>
